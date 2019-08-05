@@ -1,8 +1,8 @@
-package com.example.android.travelmantics_firebase;
+package com.example.android.travelmantics_firebase.models;
 
 import java.io.Serializable;
 
-class TravelDeal implements Serializable {
+public class TravelDeal {
 
     private String id;
     private String title;
@@ -19,8 +19,7 @@ class TravelDeal implements Serializable {
         this.imageName = imageName;
     }
 
-
-    TravelDeal() {
+    public TravelDeal() {
     }
 
     TravelDeal(String title, String description, String price, String imageUrl, String imageName) {
@@ -31,43 +30,43 @@ class TravelDeal implements Serializable {
         this.imageName = imageName;
     }
 
-    String getId() {
+    public String getId() {
         return id;
     }
 
-    void setId(String id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    void setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    String getDescription() {
+    public String getDescription() {
         return description;
     }
 
-    void setDescription(String description) {
+    public void setDescription(String description) {
         this.description = description;
     }
 
-    String getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    void setPrice(String price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
-    String getImageUrl() {
+    public String getImageUrl() {
         return imageUrl;
     }
 
-    void setImageUrl(String imageUrl) {
+    public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
     }
 }

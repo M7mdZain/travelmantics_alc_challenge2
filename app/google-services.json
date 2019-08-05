@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "40265211786-qb4q4pe674ebvlqttdou7toc9igrei4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.travelmantics_firebase",
+            "certificate_hash": "670659116a88849b83cf926d402e9a3b7beda207"
+          }
+        },
+        {
           "client_id": "40265211786-snmeskmajvpcu4rhi0045mn1v8g2gant.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
